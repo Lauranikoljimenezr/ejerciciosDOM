@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Comentarios</title>    
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Comentarios</h1>
+        <div class="comment-form">
+          <label for="comment">Añadir un comentario (máximo 255 caracteres):</label>
+          <textarea id="comment" rows="4" placeholder="Escribe tu comentario aquí"></textarea>
+          <P id="mistakeMessage"></P>
+          <p id="counter" class="counter">255</p>
+          <div class="buttons">
+            <button id="submit-comment">Comentar</button>
+            <button id="to-uppercase">Texto en Mayúsculas</button>
+            <button id="to-lowercase">Texto en Minúsculas</button>
+            <button id="capitalize">Capitalizar Texto</button>
+          </div>
+        </div>
+        <div class="comment-box">
+          <ul>
+            <li>
+              <p><strong>Usuario x:</strong> Aquí se debe mostrar el comentario.</p>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <script src="taller.js"></script>
+</body>
+</html>
+
